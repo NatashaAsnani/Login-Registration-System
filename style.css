@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    position: relative;
+}
+.secondcont{
+    position: absolute;
+    top: 370px;
+}
+.forming{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 950px;
+    padding: 20px 30px;
+    height: auto;
+    /* box-shadow: 0px 5px 10px; */
+}
+.ship{
+    position: absolute;
+    height: 750px;
+}
+
+.first{
+    background-image: url("https://picsum.photos/600/400");
+    height: auto;
+    padding: 10px;
+}
+
+.form-container {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    height: auto;
+}
+.close-btn {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.username{
+    margin-top: 8px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+.input-container {
+    position: relative;
+}
+
+.icon, .lock-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #aaa;
+}
+.form-control {
+    padding-left: 40px; /* Add padding to the left to make space for the icon */
+}
+
+.title{
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    /* margin-left: 10px; */
+    font-family: Georgia;
+    margin-top: 23px;
+
+}
+.member{
+    background-color: white;
+}
+.emaill{
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+.password{
+    margin-top: 8px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+.confirm{
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Georgia;
+    margin-top: 20px;
+}
+.sign{
+    
+    font-weight: bold;
+    border: none;
+    background-color: darkblue;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.account{
+    text-align: center;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.or{
+    margin-top: 20px;
+}
+
+input{
+    background-color: rgba(128, 128, 128, 0.18);
+    border: none;
+}
+.google1{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 180px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+}
+
+.google{
+    border: none;
+    /* padding: 20px; */
+}
+
+.facebook{
+    border: none;
+    width: 100%; /* Ensure the button uses the full width of the .face container */
+    padding: 5px; /* Add padding to ensure the text and icon are properly spaced */
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+
+}
+.face{
+    margin-left: 190px;
+    margin-top: -41px;
+    border: 1px solid gray;
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+
+}
+
+.facebook-icon {
+    color: #1877F2;
+}
+.fact{
+    width: 20px;
+}
+
+@media (max-width: 576px) {
+    .forming {
+        padding: 10px;
+    }
+    .title {
+        font-size: large;
+    }
+    .facebook{
+        width: 130px;
+    }
+}
+@media (max-width: 767px) {
+    .first, .member {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .member{
+        margin-top: 40px;
+    }
+    .first{
+       background-image: none;
+    }
+
+    .forming {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: large;
+    }
+
+    .form-control, .btn {
+        font-size: 0.875rem;
+    }
+    .ship{
+        height: 200px; /* Adjust height for small screens */
+        /* object-fit: contain; Ensure the image fits within the container */
+    }
+    .google1{
+        border: none;
+    }
+    .face{
+        width: 58%;
+        margin: 30px;
+        margin-left: 0px;
+        border: none;
+    }
+}
+@media (max-width: 768px) {
+    .logreg {
+        margin-right: 50px;
+    }
+
+    ul {
+        margin-left: 0;
+    }
+
+    .caros {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .carousel-right-button {
+        right: 20px;
+    }
+
+    .table {
+        width: 100%;
+        margin: 0;
+    }
+
+    .login,
+    .register {
+        width: 100px;
+    }
+
+    .search {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .container.secondcont .row {
+        flex-direction: column;
+    }
+
+    .first, .member {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
+    .hi {
+        width: 150%;
+        height: 300px;
+        height: 100px;
+    }
+    .form-container{
+         width: 100%;
+        height: 50%;
+
+}
+    .ship{
+        width: 100%;
+        height: 200%;
+        width: 200%;
+        height: 400%;
+    }
+}
