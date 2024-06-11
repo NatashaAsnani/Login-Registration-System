@@ -41,7 +41,7 @@
 }
 .close-btn {
     position: absolute;
-    top: 60px;
+    top: 50px;
     right: 30px;
     background-color: transparent;
     border: none;
@@ -50,8 +50,9 @@
 }
 
 .username{
-    margin-top: 8px;
-    margin-left: 10px;
+    margin-top: 25px;
+    /* margin-left: 10px; */
+    padding: 10px;
     font-weight: bold;
     font-family: Georgia;
 }
@@ -75,7 +76,7 @@
     color: black;
     font-size: xx-large;
     font-weight: bold;
-    /* margin-left: 10px; */
+    margin-left: 6px;
     font-family: Georgia;
     margin-top: 23px;
 
@@ -97,7 +98,8 @@
 }
 
 .confirm{
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    padding: 10px;
     font-weight: bold;
     font-family: Georgia;
     margin-top: 20px;
@@ -109,6 +111,7 @@
     background-color: darkblue;
     border-radius: 25px;
     justify-content: center;
+    margin-left: 5px;
 }
 
 .account{
@@ -133,12 +136,14 @@ input{
     margin-top: 20px;
     border: 1px solid gray;
     width: 180px;
-    padding-bottom: 2px;
-    padding-top: 1px;
+    padding: 2px;
+    /* padding-bottom: 2px;
+    padding-top: 1px; */
 }
 
 .google{
     border: none;
+    padding: 5px;
     /* padding: 20px; */
 }
 
@@ -149,16 +154,20 @@ input{
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
+    padding: 5px;
 
 }
 .face{
+    position: absolute;
     margin-left: 190px;
     margin-top: -41px;
     border: 1px solid gray;
     /* width: 190px; */
     display: flex;
     justify-content: center;
-    padding-bottom: 2px;
+    /* padding-bottom: 2px; */
+    padding: 2px;
+    bottom:  28px;
 
 }
 
@@ -168,6 +177,19 @@ input{
 .fact{
     width: 20px;
 }
+.forgot{
+    text-align: right;
+}
+
+.imggoogle{
+    margin-top: -5px;
+}
+
+
+
+
+
+
 
 @media (max-width: 576px) {
     .forming {
@@ -212,7 +234,7 @@ input{
         border: none;
     }
     .face{
-        width: 58%;
+        width: 67%;
         margin: 30px;
         margin-left: 0px;
         border: none;
